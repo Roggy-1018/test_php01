@@ -9,10 +9,10 @@ if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false || strpos($_SERVER['HTT
     $password = '';
 } else {
     // サクラサーバー環境
-    $host = 'mysql80.sakigake.sakura.ne.jp'; // サクラサーバーのMySQLホスト名に変更
-    $dbname = 'sakigake_test_php01'; // データベース名に変更
-    $username = 'sakigake_test_php01'; // ユーザー名に変更
-    $password = 'question-1'; // パスワードに変更
+    $host = ''; // サクラサーバーのMySQLホスト名に変更
+    $dbname = ''; // データベース名に変更
+    $username = ''; // ユーザー名に変更
+    $password = ''; // パスワードに変更
 }
 
 try {
